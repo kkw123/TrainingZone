@@ -1,0 +1,10 @@
+article.ourTrainersContent {
+	margin-left: 15%;
+	}
+article.ourTrainersContent img {
+	width: 300px;
+	height: 200px;
+	}
+article.ourTrainersContent dl.trainerList dt {
+	font-weight: bold;
+	}

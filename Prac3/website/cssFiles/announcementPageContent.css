@@ -1,0 +1,10 @@
+article.announcementContent {
+	margin-left: 15%;
+	}
+article.announcementContent img {
+	width: 300px;
+	height: 200px;
+	}
+article.announcementContent ol.announcements {
+	type: "a";
+	}

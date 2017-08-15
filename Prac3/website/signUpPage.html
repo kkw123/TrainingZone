@@ -1,0 +1,68 @@
+<!DOCTYPE>
+<html>
+<head>
+<link href="cssFiles/defaultTemplate.css" rel="stylesheet">
+<link href="cssFiles/signUpPageContent.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="defaultTemplate">
+<header>Training Zone</header>
+
+<nav class="navigationBar">
+<ul>
+	<li><a href="announcementPage.html">Announcements</a></li>
+	<li><a href="historyPage.html">History</a></li>
+	<li><a href="ourTrainersPage.html">Our Trainers</a></li>
+	<li><a href="linksPage.html">Links</a></lI>
+</ul>
+</nav>
+
+<article class="signUpContent">
+<form class="signUpForm">
+	<h2>Fill in your particulars and we will attend to you shortly</h2>
+	Full Name: 
+	<br>
+	<input type="text" name="fullName" id="nameInput">
+	<br>
+	Email:
+	<br>
+	<input type="text" name="senderMail" id="mailInput">
+	<br>
+	Course Title: <br>
+	<input type="text" name="courseTitle" id="courseInput">
+	<br>
+	<p id="whenSubmit"></p>
+	<button type="button" onclick="myFunctionA()">Submit</button>
+</form>
+</article>
+
+<footer class="defaultFooter">
+	 Our Contacts
+	<pre>
+	Phone Number: 0747791243
+	Fax: 47791244
+	Address: 12 Plongk Street,Cainsville,Queensland
+	Email: training@trainingzone.com.au
+	</pre>
+</footer>
+</div>
+
+<!-- I tried to make it required to fill all 3 fields but failed -->
+<script>
+function myFunctionA() {
+	var a = document.getElementById("nameInput");
+	var b = document.getElementById("mailInput");
+	var c = document.getElementById("courseInput");
+	var x = document.getElementById("whenSubmit");
+	a.value = "";
+	b.value = "";
+	c.value = "";
+	x.innerHTML = "Thank you for your interest";
+	}
+</script>
+
+</body>
+
+</html>
